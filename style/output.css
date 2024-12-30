@@ -719,14 +719,6 @@ video {
   margin: auto;
 }
 
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
-.mr-10 {
-  margin-right: 2.5rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -834,12 +826,12 @@ video {
   display: none;
 }
 
-.h-\[900px\] {
-  height: 900px;
+.h-\[500px\] {
+  height: 500px;
 }
 
-.w-\[50\%\] {
-  width: 50%;
+.w-\[500px\] {
+  width: 500px;
 }
 
 .w-\[this-is\\\\\] {
@@ -852,6 +844,22 @@ video {
 
 .w-\[weird-and-invalid\] {
   width: weird-and-invalid;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[40\] {
+  width: 40;
+}
+
+.w-\[4\] {
+  width: 4;
+}
+
+.w-\[40\%\] {
+  width: 40%;
 }
 
 .flex-shrink {
@@ -1816,18 +1824,9 @@ video {
   border-style: none;
 }
 
-.bg-\[\#404040\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(64 64 64 / var(--tw-bg-opacity, 1));
-}
-
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity, 1));
-}
-
-.bg-home {
-  background-image: url('/imagens/banner-main-klayver3.png');
 }
 
 .decoration-slice {
@@ -1848,10 +1847,6 @@ video {
 .box-decoration-clone {
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
-}
-
-.bg-cover {
-  background-size: cover;
 }
 
 .bg-fixed {
@@ -1881,10 +1876,6 @@ video {
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
-}
-
-.bg-center {
-  background-position: center;
 }
 
 .bg-repeat {
@@ -1946,6 +1937,10 @@ video {
 .object-scale-down {
   -o-object-fit: scale-down;
      object-fit: scale-down;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-1 {
@@ -2495,6 +2490,10 @@ video {
 
 .text-color a:nth-child(4):hover{
   color: rgb(8, 8, 215);
+}
+
+.borda-personalizada{
+  border: 1px solid ;
 }
 
 @media (min-width: 640px) {
