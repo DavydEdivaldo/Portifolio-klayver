@@ -826,12 +826,20 @@ video {
   display: none;
 }
 
-.h-\[500px\] {
-  height: 500px;
+.h-\[100vh\] {
+  height: 100vh;
 }
 
-.w-\[500px\] {
-  width: 500px;
+.h-\[300px\] {
+  height: 300px;
+}
+
+.w-\[30\%\] {
+  width: 30%;
+}
+
+.w-\[300px\] {
+  width: 300px;
 }
 
 .w-\[this-is\\\\\] {
@@ -844,22 +852,6 @@ video {
 
 .w-\[weird-and-invalid\] {
   width: weird-and-invalid;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[40\] {
-  width: 40;
-}
-
-.w-\[4\] {
-  width: 4;
-}
-
-.w-\[40\%\] {
-  width: 40%;
 }
 
 .flex-shrink {
@@ -1700,6 +1692,10 @@ video {
   border-radius: 0.25rem;
 }
 
+.rounded-\[50\%\] {
+  border-radius: 50%;
+}
+
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -2472,6 +2468,11 @@ video {
   box-sizing: border-box;
 }
 
+body{
+  background: rgb(2,4,3);
+  background: radial-gradient(circle, rgba(2,4,3,1) 0%, rgba(40,35,29,1) 0%, rgba(4,2,0,1) 85%);
+}
+
 .text-color{
   color: #c6c6c6;
 }
@@ -2492,8 +2493,18 @@ video {
   color: rgb(8, 8, 215);
 }
 
+.perfil{
+  position: absolute;
+  top: 6%;
+  left: 3%;
+}
+
 .borda-personalizada{
-  border: 1px solid ;
+  border: 1px solid #c6c6c6;
+}
+
+.cor-texto{
+  color: aliceblue;
 }
 
 @media (min-width: 640px) {
