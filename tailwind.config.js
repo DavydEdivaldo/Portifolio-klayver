@@ -3,9 +3,7 @@ module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
     extend: {
-      backgroundImage: {
-        'home': "url('/imagens/banner-main-klayver3.png')"
-      },
+      'home': 'url(../imagens/background.png)'
     },
   },
   plugins: [],
