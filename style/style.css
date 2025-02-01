@@ -8,7 +8,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+ 
 
 body{
   font-family: "Ballet";
@@ -133,4 +133,16 @@ footer, .bg-blur{
   font-size: 30px;
   color: white;
   cursor: pointer;
+}
+
+
+@media screen and (max-width: 640px){
+  .responsivo-1, .responsivo-2{
+    display: none;
+  }
+  header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
