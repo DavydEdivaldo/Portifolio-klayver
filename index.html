@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="./style/output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    
+    
+</head>
+<body> 
+    <header class="w-[100%] h-[40vh] text-center text-white">
+        <div class="float-start text-center ml-3 pr-4 p-3">
+            <img src="./imagens/foto-klayver.png" alt="foto de perfil" class="w-[200px] h-[200px] object-cover rounded-full">
+            <h2>Klayver Edivaldo Silva</h2>
+            <p>Fotógrafo e Filmmaker</p><br>
+            <div class="borda rounded-xl">
+                <a href="https://wa.me/5581981564667"><i class="bi bi-whatsapp"></i></a>
+                <a class="m-3" href="https://www.instagram.com/klayver_sillva?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="bi bi-instagram"></i></a>  
+            </div>
+            
+        </div>
+        <div class="flex justify-center items-center text-left pt-[38px]">
+            <p>Olá, sou Klayver Edivaldo Silva, fotógrafo e filmmaker apaixonado por capturar momentos únicos e contar histórias visuais. Desde o início da minha carreira, busquei uma abordagem criativa e autêntica, com o objetivo de transmitir emoções e conexões por meio das imagens.
+                               
+                Seja em um ensaio fotográfico, um vídeo publicitário ou um projeto mais autoral, minha missão é sempre entregar um trabalho de qualidade, que reflita minha visão e a visão do cliente. Vamos juntos criar algo inesquecível!</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center text-center mt-[30px]">
+            
+            <div class="messageBox">
+                <input required="" placeholder="Me envie uma mensagem..." type="text" id="messageInput" />
+                <button id="sendButton" onclick="enviarMensagem()">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 664 663">
+                    <path
+                        fill="none"
+                        d="M646.293 331.888L17.7538 17.6187L155.245 331.888M646.293 331.888L17.753 646.157L155.245 331.888M646.293 331.888L318.735 330.228L155.245 331.888"></path>
+                   
+                    <path
+                        stroke-linejoin="round"
+                        stroke-linecap="round"
+                        stroke-width="33.67"
+                        stroke="#6c6c6c"
+                        d="M646.293 331.888L17.7538 17.6187L155.245 331.888M646.293 331.888L17.753 646.157L155.245 331.888M646.293 331.888L318.735 330.228L155.245 331.888"
+                    ></path>
+                    </svg>
+                </button>
+                </div>
+        </div>
+
+    </header>
+    <div class="text-center bg-blur text-white">
+        <h1>Alguns de meus trabalhos</h1>
+    </div>
+
+    <main class="h-auto max-w-full">
+        <div class="flex gap-3 flex-wrap justify-center items-center pt-5 imagens">
+            <img src="./imagens/trabalho-portifolio-1.png" alt="imagem portifolio" class="w-[270px] h-[270px]">
+            <img src="./imagens/trabalho-portifolio-2.png" alt="imagem portifolio" class="w-[270px] h-[270px]">
+            <video class="w-[270px] h-[270px] " src="./video-portifolio-1.mp4" autoplay loop muted></video>
+            <video class="w-[270px] h-[270px]" src="./video-portifolio-2.mp4" autoplay loop muted></video>
+            <video class="w-[270px] h-[270px]" src="./video-portifolio-3.mp4" autoplay loop muted></video>
+            <video class="w-[270px] h-[270px]" class="w-[350px] h-[270px]" src="./video-portifolio_7KYYlWuK.mp4" autoplay loop muted></video>
+            <img src="./imagens/foto-davyd.png" alt="imagem portifolio" class="w-[270px] h-[270px] object-center">
+            <video class="w-[270px] h-[270px]" src="./making-off-1-s4tachxn_35rsG43Q.mp4" autoplay loop muted></video>
+        </div>
+    </main>
+    <div class="modal" id="imageModal">
+        <span class="close" id="closeModal">&times;</span>
+        <img id="imgModal" src="" alt="imagen expandida">
+    </div>
+
+    <footer class="w-full h-auto text-white">
+        <div class="flex flex-row justify-between pt-3">
+            <p class="ml-7"><i class="bi bi-geo"></i> Riacho das Almas</p>
+            <div class="mr-7">
+                <a href="https://wa.me/5581981564667"><i class="bi bi-whatsapp"></i></a>
+                <a class="m-3" href="https://www.instagram.com/klayver_sillva?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="bi bi-instagram"></i></a> 
+            </div>
+            
+        </div>
+        <div class="text-center">
+            <p>Desenvolvido por Dayvd</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

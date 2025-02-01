@@ -1,0 +1,18 @@
+{
+  "name": "portifolio-klayver",
+  "version": "1.0.0",
+  "description": "Projeto para meu irmão, um portifólio para apresentar seu trabalho de fotografo de forma mais profissional.",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./style/style.css -o ./style/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "toastify-js": "^1.12.0"
+  }
+}
