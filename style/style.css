@@ -13,7 +13,6 @@
 body{
   font-family: "Ballet";
   font-weight: normal;
-  color: 333333;
 
   background-color: #000826;
 }
@@ -134,6 +133,12 @@ footer, .bg-blur{
   color: white;
   cursor: pointer;
 }
+video{
+  border: 1px solid #ccc;
+  background-color: aliceblue;
+
+  width: 100%;
+}
 
 
 @media screen and (max-width: 640px){
@@ -145,4 +150,15 @@ footer, .bg-blur{
     justify-content: center;
     align-items: center;
   }
+  main > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .responsive-3{
+    margin-left: 10px;
+  }
+  .responsive-4{margin-right: 10px;}
 }

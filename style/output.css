@@ -838,26 +838,6 @@ video {
   display: none;
 }
 
-.size-\[\] {
-  width: ;
-  height: ;
-}
-
-.size-\[10px\] {
-  width: 10px;
-  height: 10px;
-}
-
-.size-\[8px\] {
-  width: 8px;
-  height: 8px;
-}
-
-.size-\[6px\] {
-  width: 6px;
-  height: 6px;
-}
-
 .h-\[200px\] {
   height: 200px;
 }
@@ -874,6 +854,10 @@ video {
   height: auto;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }
@@ -884,10 +868,6 @@ video {
 
 .w-\[270px\] {
   width: 270px;
-}
-
-.w-\[350px\] {
-  width: 350px;
 }
 
 .w-\[this-is\\\\\] {
@@ -2091,10 +2071,6 @@ video {
   vertical-align: super;
 }
 
-.text-\[8px\] {
-  font-size: 8px;
-}
-
 .text-\[10px\] {
   font-size: 10px;
 }
@@ -2183,10 +2159,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .underline {
@@ -2564,7 +2536,6 @@ video {
 body{
   font-family: "Ballet";
   font-weight: normal;
-  color: 333333;
   background-color: #000826;
 }
 
@@ -2695,6 +2666,12 @@ footer, .bg-blur{
   cursor: pointer;
 }
 
+video{
+  border: 1px solid #ccc;
+  background-color: aliceblue;
+  width: 100%;
+}
+
 @media screen and (max-width: 640px){
   .responsivo-1, .responsivo-2{
     display: none;
@@ -2704,6 +2681,21 @@ footer, .bg-blur{
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  main > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .responsive-3{
+    margin-left: 10px;
+  }
+
+  .responsive-4{
+    margin-right: 10px;
   }
 }
 
