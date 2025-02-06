@@ -150,6 +150,10 @@ video{
     justify-content: center;
     align-items: center;
   }
+.bg-blur{
+  padding: 10px;
+}
+
   main > div{
     display: flex;
     flex-direction: column;
@@ -159,6 +163,9 @@ video{
 
   .responsive-3{
     margin-left: 10px;
+  }
+  .responsive-3 > a{
+    display: block;
   }
   .responsive-4{margin-right: 10px;}
 }
