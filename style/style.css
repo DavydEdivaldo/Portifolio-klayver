@@ -97,10 +97,12 @@ footer, .bg-blur{
 }
 
 .borda >a:nth-child(1):hover,
-.borda >a:nth-child(2):hover{
+.borda >a:nth-child(2):hover,
+.borda >a:nth-child(3):hover{
   color: white;
 }
 .borda >a:nth-child(1):focus,
+.borda >a:nth-child(2):focus,
 .borda >a:nth-child(2):focus{
   color: white;
 }
@@ -145,10 +147,19 @@ video{
   .responsivo-1, .responsivo-2{
     display: none;
   }
-  header{
+  .header{
     display: flex;
+    width: 100%;
+    height: 46vh;
+    text-align: center;
     justify-content: center;
     align-items: center;
+  }
+  .mobile-responsivo-container > div{
+    display: none;
+  }
+  .mobile-responsivo-container > .mobile-responsivo{
+    display: flex;
   }
 .bg-blur{
   padding: 10px;
@@ -168,4 +179,35 @@ video{
     display: block;
   }
   .responsive-4{margin-right: 10px;}
+
+  .main-desktop{
+    display: none;
+  }
+  .main-mobile{
+    display: grid;
+  }
+  .main-mobile p{
+    padding: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
+    border: 1px solid rgba(0, 8, 38, 0.05);
+    stroke: white;
+    z-index: 9;
+  }
+ 
+  .img-mobile-1{
+    background-image: url(../imagens/img-klayver-sobre.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .img-mobile-2{
+    background-image: url(../imagens/img-klayver-sobre-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
 }

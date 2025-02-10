@@ -719,6 +719,10 @@ video {
   margin: 0.75rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .ml-3 {
   margin-left: 0.75rem;
 }
@@ -727,8 +731,16 @@ video {
   margin-left: 1.75rem;
 }
 
+.ml-8 {
+  margin-left: 2rem;
+}
+
 .mr-7 {
   margin-right: 1.75rem;
+}
+
+.mr-8 {
+  margin-right: 2rem;
 }
 
 .mt-2 {
@@ -739,8 +751,20 @@ video {
   margin-top: 1.25rem;
 }
 
+.mt-\[15px\] {
+  margin-top: 15px;
+}
+
 .mt-\[30px\] {
   margin-top: 30px;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
 }
 
 .box-border {
@@ -878,8 +902,16 @@ video {
   width: 270px;
 }
 
-.w-\[500px\] {
-  width: 500px;
+.w-\[30\%\] {
+  width: 30%;
+}
+
+.w-\[600px\] {
+  width: 600px;
+}
+
+.w-\[80\%\] {
+  width: 80%;
 }
 
 .w-\[this-is\\\\\] {
@@ -1234,6 +1266,10 @@ video {
 
 .grid-flow-col-dense {
   grid-auto-flow: column dense;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .grid-cols-2 {
@@ -2643,11 +2679,13 @@ footer, .bg-blur{
 }
 
 .borda >a:nth-child(1):hover,
-.borda >a:nth-child(2):hover{
+.borda >a:nth-child(2):hover,
+.borda >a:nth-child(3):hover{
   color: white;
 }
 
 .borda >a:nth-child(1):focus,
+.borda >a:nth-child(2):focus,
 .borda >a:nth-child(2):focus{
   color: white;
 }
@@ -2693,10 +2731,21 @@ video{
     display: none;
   }
 
-  header{
+  .header{
     display: flex;
+    width: 100%;
+    height: 46vh;
+    text-align: center;
     justify-content: center;
     align-items: center;
+  }
+
+  .mobile-responsivo-container > div{
+    display: none;
+  }
+
+  .mobile-responsivo-container > .mobile-responsivo{
+    display: flex;
   }
 
   .bg-blur{
@@ -2720,6 +2769,38 @@ video{
 
   .responsive-4{
     margin-right: 10px;
+  }
+
+  .main-desktop{
+    display: none;
+  }
+
+  .main-mobile{
+    display: grid;
+  }
+
+  .main-mobile p{
+    padding: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
+    border: 1px solid rgba(0, 8, 38, 0.05);
+    stroke: white;
+    z-index: 9;
+  }
+
+  .img-mobile-1{
+    background-image: url(../imagens/img-klayver-sobre.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .img-mobile-2{
+    background-image: url(../imagens/img-klayver-sobre-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 
